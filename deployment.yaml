@@ -18,5 +18,6 @@ spec:
       containers:
       - name: nginx
         image: docker.io/sarojkumawat/jenkins:v1
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
